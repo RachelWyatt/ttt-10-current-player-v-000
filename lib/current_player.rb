@@ -11,8 +11,8 @@ end
 
 def current_player(board)
   if counter % 2
-    puts "X"
+    puts "O"
   else
-    puts "o"
+    puts "X"
   end
 end

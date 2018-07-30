@@ -4,6 +4,4 @@ def turn_count(board)
     if token == "X" || token == "O"
       counter += 1
     end
-  end
-puts counter
 end

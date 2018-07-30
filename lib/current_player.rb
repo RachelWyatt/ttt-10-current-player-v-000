@@ -8,6 +8,4 @@ def turn_count(board)
   end
 end
 
-def current_player(board)
-  puts "Placeholder"
-end
+

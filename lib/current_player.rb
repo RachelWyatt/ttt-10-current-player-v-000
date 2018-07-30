@@ -1,9 +1,12 @@
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def turn_count(board)
-  puts "Placeholder"
+  counter = 0
+  board.each do |space|
+  if space == "X" || "O"
+    counter += 1
 end
 
-def current_player
+def current_player(board)
   puts "Placeholder"
 end
